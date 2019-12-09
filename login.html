@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>World Travel</title>
+<link href="styles/login.css" rel ="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+
+<style>
+    label {
+      font-family: Arial, Helvetica, sans-serif;
+      color: red;       
+    }
+</style>
+</head>
+<body>      
+  <!-- <div id ="wrapper"> -->
+    <a href="#" class="closebtn" onclick="closeOverlay();">&times;</a>  
+    <div class="login-card">
+            <h1>Log-in</h1><br>
+          <form>
+            <input type="text"  id="txt_user" name="user" placeholder="Username">
+            <label for="user" id="lbl_user"></label>
+            <input type="email"  id="txt_email" name="email" placeholder="email">
+            <label for="email" id="lbl_email"></label>
+            <input type="password" id="txt_psswd" name="pass" placeholder="Password">
+            <input type="password" id="txt_conf_psswd" name="pass" placeholder="Confirm password">         
+            <label for="password" id="lbl_psswd"></label>  
+              <input type="submit" name="login" class="login login-submit" value="login" onclick="return validate('1');">
+          </form>
+        
+          <div class="login-help">
+            <a href="#" onclick="overLay('4');">Register</a> • <a href="#">Forgot Password</a>
+          </div>
+    </div>   
+  <script src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="js/site-header.js"></script>   
+</body>
+</html>

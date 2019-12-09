@@ -1,0 +1,304 @@
+<<<<<<< HEAD
+body {
+    background-color: #d8d0d054;
+    margin: 0px;
+}
+
+label {
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-slide {
+    width: 100%;
+    /* background-image: url("../images/shu-Turkey-Cappadocia_434026117-1440x823.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+#search-bar{
+    position: absolute;
+    top: 60%;
+    left: 20%;   
+    background: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;     
+    font-family: sans-serif; 
+    color: whitesmoke;
+    font-size: x-large;
+}
+::placeholder{
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+#search span{
+    position: absolute;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;    
+    top: -45%;
+    left: 30%;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    color:#5d5d5d;
+}
+/* #img-logo{
+    width:2%;
+    margin-left :41%;
+    position: absolute;
+} */
+.span-text{
+    float: left;
+    margin-left :43%;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;    
+    clear: right;
+}
+
+.flexContainer {
+    margin-top:10%;
+}
+
+.features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #223184;
+    margin-top: .01em;
+}
+hr {
+    width: 80%;
+    color: #223184;
+}
+#span-hotels{
+    margin-top: 3%;
+}
+#span-deals{
+    margin-left :38%;    
+=======
+<<<<<<< HEAD
+body {
+    background-color: #d8d0d054;
+    margin: 0px;
+}
+
+label {
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#search {
+    width: 100%;
+    background-image: url("../images/shu-Turkey-Cappadocia_434026117-1440x823.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#search-bar{
+    position: absolute;
+    top: 60%;
+    left: 20%;   
+    background: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;     
+    font-family: sans-serif; 
+    color: whitesmoke;
+    font-size: x-large;
+}
+::placeholder{
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+#search span{
+    position: absolute;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;    
+    top: -45%;
+    left: 30%;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    color:#5d5d5d;
+}
+#img-logo{
+    width:2%;
+    margin-left :41%;
+    position: absolute;
+}
+.span-text{
+    float: left;
+    margin-left :43%;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;    
+    clear: right;
+}
+
+.flexContainer {
+    margin-top:10%;
+}
+
+.features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #223184;
+    margin-top: .01em;
+}
+hr {
+    width: 80%;
+    color: #223184;
+}
+#span-hotels{
+    margin-top: 3%;
+}
+#span-deals{
+    margin-left :38%;    
+=======
+body {
+    background-color: #d8d0d054;
+    margin: 0px;
+}
+
+label {
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#search {
+    width: 100%;
+    background-image: url("../images/shu-Turkey-Cappadocia_434026117-1440x823.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#search-bar{
+    position: absolute;
+    top: 60%;
+    left: 20%;   
+    background: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;     
+    font-family: sans-serif; 
+    color: whitesmoke;
+    font-size: x-large;
+}
+::placeholder{
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+#search span{
+    position: absolute;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;    
+    top: -45%;
+    left: 30%;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    color:#5d5d5d;
+}
+#img-logo{
+    width:2%;
+    margin-left :41%;
+    position: absolute;
+}
+.span-text{
+    float: left;
+    margin-left :43%;
+    color: #223184;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;    
+    clear: right;
+}
+
+.flexContainer {
+    margin-top:10%;
+}
+
+.features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #223184;
+    margin-top: .01em;
+}
+hr {
+    width: 80%;
+    color: #223184;
+}
+#span-hotels{
+    margin-top: 3%;
+}
+#span-deals{
+    margin-left :38%;    
+>>>>>>> 316301478eb75713b3406d8ebce5848e53d2b28c
+>>>>>>> 01468568e218757c7a86058a37241bfece2a7fca
+}

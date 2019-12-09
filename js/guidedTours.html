@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Guided Tour</title>
+        <link rel="stylesheet" href="styles/aboutus.css">        
+        <link rel="icon" href="assets/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <img class="h" src="assets/logo.jpg" alt="logo">
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a  href="travel_destinations.html">Destinations</a>
+                        <ul>
+                            <li><a href="travel_destinations.html">Travel Destination</a></li>
+                            <li><a href="Travel_modes_and_Flights.html">Travel Modes & Schedule</a></li>                                                
+                        </ul>
+                    </li>
+                    <li><a href="gallary.html" >Gallery</a></li>
+                    <li><a href="hotels.html" >Hotels</a></li>                                      
+                    <li ><a href="Foodanddrink.html">Food & Drink</a></li>
+                    <li><a href="guidedTours.html">Guided Tours</a></li>
+                    <li><a href="aboutus.html" >About Us</a></li>
+                </ul>
+    </nav>
+    </header>
+
+    <main> 
+    <p>Love where you’re going<br> Book experiences you’ll want to tell the world about</p>
+    </main>
+
+    <section><br><br>
+            <div id="item3">
+                <strong>See the World Like Never Before</strong><br>
+                <p>Guided Tours through Trip  
+                Adviser are immersive excursions with
+                authentic experiences that highlight the
+                local culture.<br> Enjoy the world’s iconic attractions
+                with VIP passes, hotels, and transportation taken care of, 
+                plus get under-the-radar insights,<br> not typically available to 
+                independent travelers.Whether you’re traveling solo, with adults-only 
+                or with family, Trip Adviser will<br> match you up with a professional guide
+                who’ll personalize your vacation with a range of fascinating and unique 
+                experiences<br> that really bring each destination to life.</p>
+            </div>
+    </section>
+    <aside>
+            <div id="item4">
+            <img class="itema" src="images/canada.jpg" alt="waterfall">
+            <img src="images/fall.jpg" alt="fall">
+            <img src="images/city.jpg" alt="city">
+            </div> 
+    </aside>
+    <article><br>
+            <div id="item7">
+                <h1>Keep things flexible</h1><br>
+                In case plans change, you can cancel most bookings
+                for free up to 24 hours before they start.<br>
+                If you ever need us, customer service is available 
+                24/7 in multiple languages.
+            </div>
+    </article>
+    <div id="mainhead">
+            <div id="item8">
+               <img src="images/mainImage.jpg" alt="tree">
+    </div>
+            <div id="item9">
+                <h1>Wish you were there</h1><br>
+                <p>Sign up for our news letter and discover travel<br> 
+                experiences you’ll really want to try.</p> 
+
+    <form id="reg" name="reg" method="get" action="contactform.html">
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname" autofocus><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname"><br>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address"><br>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email">
+            <span>*</span><br/>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state"><br>
+            <label for="zip">Zip code:</label>
+            <input type="text" name="zip" id="zip" required pattern="/d{5}([/-]/d{4}?"
+            title="must be 99999 or 99999-9999"><br>
+            <input type="submit" id="register" value="Register">
+    </form>
+    <div id="test"></div>
+    <script>
+    window.onload = function(){
+     this.document.getElementById('register').onclick = validate;
+    }
+    function validate(){
+        let email1 = document.querySelector('#email');
+        let namepattern1 = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        console.log(namepattern1.test(email1.value));
+        if(email1.value==''){
+            email.nextElementSibling.innerHTML='Please enter the Email address';
+        }else if(!namepattern1.test(email1.value)){
+            email1.nextElementSibling.innerHTML='Here the regular expression allows character,digit,underscore,and dash';
+        }else{
+            email1.nextElementSibling.innerHTML='valid email';
+        }
+    }
+
+   </script>
+            <p>
+                Select your favorite city with data to get best advice.
+            </p>
+    <form>
+            City:<br>
+            <input type="radio" name="city" value="atlantic">Atlantic<br>
+            <input type="radio" name="city" value="montreal" checked>Montreal<br>
+            <input type="radio" name="city" value="oshava">Oshava<br>
+            <input type="radio" name="city" value="hamilton">Hamilton<br><br>
+            Date:&nbsp;&nbsp;
+            <input type="date" name="date">
+    </form>
+</div>
+</div>
+    <footer id ="footer">
+            <p>                
+                <strong>About The World Travel Guide</strong>
+                <br><br>
+                The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus Travel Media portfolio. 
+                A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br> stretches back more than 30 years,
+                with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in English,<br> German and Spanish versions, 
+                the WTG<br> provides detailed and accurate travel<br> content designed to inspire global travellers.<br>
+                It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+ unique users<br> monthly.
+            </p>
+            <div id ="list-footer">
+                <ul>                    
+                    <li><a href="AboutUS.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="enquiry.html">Post your enquiry</a></li>
+                </ul>
+                   
+            </div>
+            <div id ="div-bottom">
+            <span>&copy; World Travel</span>
+            </div>            
+    </footer>  
+    </body>
+</html>

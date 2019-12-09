@@ -1,0 +1,97 @@
+
+h2{
+    
+    color: red;
+    font-size: 40px;
+    margin-left: 20px;
+    
+}
+h3{
+    font-size: 30px;
+  color: white
+}
+
+
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left:20px;
+    
+   
+}
+body{
+    
+  
+   background-repeat: no-repeat;
+   background-size: 1600px 1000px;
+}
+#wrapper{
+width: 90%;
+margin:0 auto;
+background-color: darkblue;
+height:105%;
+
+}
+h1{
+    
+    font-size: 40px;
+    text-decoration: underline;
+    color: darkblue;
+    background-color: greenyellow;
+    width:1353px;
+    margin-top:-5px;
+    
+}
+header {
+	background-image: url(../images/aerial-view-2016.jpg);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 3600px;
+    background-size: cover;
+
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 270.5px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color:  #2a2466;
+	color: white;
+    font-weight: bold;
+   
+}
+nav {
+    margin-bottom: 2em;
+    margin-left:75px;
+}
+
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}

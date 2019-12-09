@@ -1,0 +1,12 @@
+[
+	{
+		"user": "mohit3119",
+		"email": "mohitsharma3119@gmail.com",
+		"psswd": "123"
+	},
+	{
+		"user": "jules",
+		"email": "j@gmail.com",
+		"psswd": "123"
+	}
+]

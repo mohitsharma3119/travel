@@ -1,0 +1,148 @@
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color:#fff;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8ab7fa;
+  }
+
+  header {
+     background-color: #1e1f26;
+     color: #fff;
+
+  }
+
+  header nav {
+      padding-top: 20px;
+      padding-left: 86%;
+  }
+  header span{
+      float: left;
+      font-family: 'Mansalva', cursive;
+      padding-top: 30px;
+      font-size: large;
+    }
+
+  .container {
+    padding: 1px 0;
+    height: 100%;
+    width: 100%;   
+    /* background-image: url("../images/hiking-2618010_960_720.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    font-family: "Comfortaa", "Helvetica", sans-serif;
+  }
+
+  .login {
+    max-width: 280px;
+    min-height: 500px;
+    margin: 30px auto;
+  }
+
+  .login-form {
+    padding: 8px 20px 20px;
+    background-color: rgba(10,10,10,.68);
+    width: 100%;
+  }
+  #user-name{
+    margin-top: 300px;
+  }
+  #username_input {
+    height: 20px;
+    padding-left: 10px;
+    border: solid;
+  }
+
+  #password{
+    height: 20px;
+    margin-top: 342px;
+  }
+
+  #password_input {
+    height: 20px;
+    border: solid;
+    width: 223px;
+  }
+
+  .input{
+    position: absolute;
+    width: 212px;
+    height: 30px;
+    margin: 5px 0;
+    background: transparent;
+    border: none;
+    color: white;
+  }
+
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+
+  .sign-in {
+    margin: 22px 0;
+    height: 130px;
+    width: 100%;
+    margin-left: -25px;
+
+  }
+
+  #login-button {
+    display: block;
+    width: 240px;
+    height: 40px;
+    padding: 0;
+    margin: 10px 20px 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #22c08a;
+    border: none;
+    border-radius: 20px;
+    }
+    #login-message{
+      margin-left: 25px;
+    }
+
+  button:hover {
+    background-color: #26d69a;
+  }
+
+  button:active {
+    background-color: #1eaa7a;
+  }
+
+  .myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+
+@media only screen and (max-height: 600px) {
+  .container {
+    background-size: cover;
+  }  
+  #user-name{
+    margin-top: 100px;
+  }
+  #password{
+    margin-top: 142px;
+  }
+}

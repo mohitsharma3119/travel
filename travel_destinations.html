@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        World Travel
+    </title>
+    <!-- <link href="styles/home.css" rel ="stylesheet" /> -->
+    <link href="styles/site-header-travel.css" rel="stylesheet" />
+    <link href="styles/travel_destinations.css" rel="stylesheet">
+    <link href="styles/lightbox.min.css" rel="stylesheet">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <div id="div-logo">
+                <img id="site-logo" src="images/Site_logo.jpg" alt="site logo">
+            </div>
+            <div id="div-login">
+                <a href="#" class="myButton" id="login-button" onclick="overLay('1');">Login</a>
+                <a href="#" class="myButton" onclick="signUp('2');">Sign Up</a>
+            </div>
+            <header>
+                <nav id="nav_menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">Destinations</a>
+                            <ul>
+                                <li><a href="travel_destinations.html">Travel Destinations</a></li>
+                                <li><a href="Travel_modes_and_Flights.html">Travel modes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallary.html" class="current">Gallery</a></li>
+                        <li><a href="hotels.html" class="current">Hotels</a></li>
+                        <li class="lastitem"><a href="Foodanddrink.html">Food & Drink</a></li>
+                        <li class="lastitem"><a href="guidedTours.html">Guided Tours</a></li>
+                        <li><a href="Aboutus.html" class="current">About Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="content">
+            <p>Choose your favourite destination to travel</p>
+            <img class="destination1" src="images/Ferry.jpg" alt="Center Island">
+            <p id="dest1-link"><br><br>
+                Center island is a place where you can spend your whole day by sitting on beach.You'll see eye-catching
+                views.Centre island is the middle of the three primary Toronto Island destinations. It's sandwiched
+                between Ward's Island on
+                the east and Hanlan's Point on the west.</p>
+
+            <img class="destination2" src="images/Toronto_cn.jpg" alt="Downtown">
+            <p id="dest2-link"><br><br>
+                Downtown Toronto is the main central business district of Toronto, Ontario, Canada. Located entirely
+                within the district of Old Toronto, it is approximately 17 square kilometers in area,
+                bounded by Bloor Street to the northeast and Dupont Street to the northwest, Lake Ontario to the south,
+                the Don Valley to the east, and Bathurst Street to the west.</p>
+
+
+            <img class="destination3" src="images/Grafitty_Alley.jpg" alt="Graffity Alley">
+            <p id="dest3-link"><br><br>
+                Rush Lane just south of Queen West, better known as Graffiti Alley, is home to a massive swath of
+                vibrant street art. Though relatively well-known by city-dwellers, if you’re new to Toronto or just
+                visiting, you’re likely
+                to walk right by it if you’re not paying attention or don’t know where to look. But Graffiti Alley is
+                always worth checking out. Much of the art has stayed the same, but there’s often something new popping
+                up so you never know what you’re going to see.</p>
+
+            <img class="destination4" src="images/nathan.jpeg" alt="Northan Phillips">
+            <p id="dest4-link"><br><br>
+                Nathan Phillips Square is an urban plaza in Toronto, Ontario, Canada. It forms the forecourt to Toronto
+                City Hall, or New City Hall, at the intersection of Queen Street West and Bay Street, and is named for
+                Nathan Phillips, mayor of Toronto from 1955 to 1962.
+                The square was designed by the City Hall's architect Viljo Revell and landscape architect Richard
+                Strong. It opened in 1965.</p>
+
+        </div>
+
+        <div class="sidebar">
+            <br><br><img id="sidebarImg" src="images/Centerlady.jpg">
+            <p>Recent popular travel destination </p>
+            <a href="images/harbourfrontB.jpg" data-lightbox="mygallary" data-title="Harbour Front">Harbour
+                Front</a><br><br>
+            <a href="images/yonge_dundas.jpg" data-lightbox="mygallary"
+                data-title="Younge Dundas">Younge-Dundas</a><br><br>
+            <a href="images/casaloma.JPG" data-lightbox="mygallary" data-title="Casa Loma museum">Casa loma
+                museum</a><br><br>
+            <a href="images/cntowerbig.jpg" data-lightbox="mygallary" data-title="CN Tower">Cn Tower</a><br><br>
+            <a href="images/centerislandbig.jpg" data-lightbox="mygallary" data-title="Centter Island">Center
+                Island</a><br><br>
+            <a href="images/london.jpg" data-lightbox="mygallary" data-title="London">London </a><br><br>
+            <a href="images/montrealbig.jpg" data-lightbox="mygallary" data-title="Montreal">The city of festival:
+                Montreal</a><br><br>
+            <a href="images/cdebig.jpg" data-lightbox="mygallary"
+                data-title="Canadian National Exhibition">CDE</a><br><br>
+            <a href="images/nathanphilipsbig.jpg" data-lightbox="mygallary" data-title="Nathan Philips Square">Nathan
+                Philips</a><br><br>
+            <a href="images/wonderland.jpg" data-lightbox="mygallary" data-title="WonderLand">WonderLand</a><br><br>
+            <img id="sidebarImg" src="images/oldmillsflow.jpg">
+            <p> For more eye-catching photos kindly visit our <a href="gallary.html">Gallery</a> page</p>
+        </div>
+        <footer id="footer">
+            <p>
+                <strong>About The World Travel Guide</strong>
+                <br><br>
+                The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus Travel
+                Media portfolio.
+                A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br> stretches
+                back more than 30 years,
+                with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in English,<br>
+                German and Spanish versions,
+                the WTG<br> provides detailed and accurate travel<br> content designed to inspire global travellers.<br>
+                It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+ unique
+                users<br> monthly.
+            </p>
+            <div id="list-footer">
+                <ul>
+                    <li><a href="Aboutus.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="enquiry.html">Post your enquiry</a></li>
+                </ul>
+            </div>
+            <div id="div-bottom">
+                <span>&copy; World Travel</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

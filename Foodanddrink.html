@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>World Travel</title>
+<link href="styles/food.css" rel ="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+
+</head>
+<body>
+  <div id ="wrapper">
+    <div id ="header">
+     <div id="div-logo">
+            <img id ="site-logo" src="images/logo2.jpg" alt="site logo">
+        </div>
+        <div id ="div-login">
+        <a href="#" class="myButton" id="login-button" onclick="overLay('1');">Login</a>
+        <a href="#" class="myButton" onclick="signUp('2');">Sign Up</a>
+     </div>
+    <header>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a  href="destinations.html">Destinations</a>
+                    <ul>
+                        <li><a href="#">Travel Destination</a></li>
+                        <li><a href="#">Travel Modes & Schedule</a></li>                                                
+                    </ul>
+                </li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="hotels.html" >Hotels</a></li>                                      
+                <li ><a href="Foodanddrink.html">Food & Drink</a></li>
+                <li><a href="guidedTours.html">Guided Tours</a></li>
+                <li><a href="aboutus.html" >About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>     
+    <h1>Food And Drinks</h1>  
+    <div id = "wrapper">
+            <a href="https://www.floridatoday.com/story/entertainment/dining/2019/10/09/what-poutine-and-
+            where-can-you-find-brevard/3912659002/""><img src="images/poutine.jpg" name="slideshow" id="slideshow" width="1200" height=700></a>
+            
+            
+            
+            
+            <script>
+                var imagearray1 = ["images/poutine.jpg","images/Okangan.jpg","images/maple.jpg"];
+      
+                var imagenumber1 = 0;
+                var difference1 = imagearray1.length - 1;
+                var delay = 2000;
+                setInterval("changeimages1(-1)",delay);
+      
+                function changeimages1(direction1) {
+                    imagenumber1 = imagenumber1 + direction1 ;
+      
+                    if(imagenumber1 > difference1){
+                        imagenumber1 = 0;
+      
+                    }
+                    if(imagenumber1<0){
+                        imagenumber1 = difference1;
+                    }
+      
+                    document.getElementById('slideshow').src = imagearray1[imagenumber1];
+                   
+                }
+              </script>
+  
+    </div>
+    <div id="wrapper1">
+        <h5>Latest Articles</h5>
+        <img id="fourth" src="images/glass.jpg" />
+         <h6><a href="https://winefolly.com/tutorial/the-importance-of-a-proper-wine-glass/">Which glass do i serve 
+             which wine in?</a></h6>
+     <div id = main>
+     <a href="https://www.foodnetwork.ca/recipe/winter-mulled-wine/15085/"><img src="images/mulled.jpg" name="slideshow1" id="slideshow1" width="600" height=550></a>
+        
+     <script>
+            var imagearray = ["images/weired.jpg","images/hotdog.jpg","images/mulled.jpg"];
+  
+            var imagenumber = 0;
+            var difference = imagearray.length - 1;
+            var delay = 2000;
+            setInterval("changeimages(-1)",delay);
+  
+            function changeimages(direction) {
+                imagenumber = imagenumber + direction ;
+  
+                if(imagenumber > difference){
+                    imagenumber = 0;
+  
+                }
+                if(imagenumber<0){
+                    imagenumber = difference;
+                }
+  
+                document.getElementById('slideshow1').src = imagearray[imagenumber];
+               
+            }
+     </script>
+  </div>
+          
+
+       
+    <footer id ="footer">
+            <p>                
+                <strong>About The World Travel Guide</strong>
+                <br><br>
+                The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus Travel Media portfolio. 
+                A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br> stretches back more than 30 years,
+                with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in English,<br> German and Spanish versions, 
+                the WTG<br> provides detailed and accurate travel<br> content designed to inspire global travellers.<br>
+                It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+ unique users<br> monthly.
+            </p>
+            <div id ="list-footer">
+                <ul>                    
+                    <li><a href="Aboutus.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="enquiry.html">Post your enquiry</a></li>
+                </ul>
+                    
+            </div>
+            <div id ="div-bottom">
+                <span>&copy; World Travel</span>
+            </div>            
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>
+            Travel modes and Flights
+        </title>
+        <meta charset="utf-8">
+        <link href="styles/site-header-travel.css" rel="stylesheet" />
+        <meta name="description" content="Travel modes and Flights">
+        <link rel="stylesheet" href="styles/travelmode.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <script src="js/googlemap.js"></script>
+    </head>
+
+    <body>
+        <!-- Top Button -->
+        <button onclick="topFunction()" id="topBtn" title="top_btn">Top</button>
+        <!--wrapper for whole page content-->
+        <div id="wrapper">
+            <div id="header">
+                <div id="div-logo">
+                    <img id="site-logo" src="images/Site_logo.jpg" alt="site
+                        logo">
+                </div>
+                <div id="div-login">
+                    <a href="#" class="myButton" id="login-button"
+                        onclick="overLay('1');">Login</a>
+                    <a href="#" class="myButton" onclick="signUp('2');">Sign Up</a>
+                </div>
+                <header>
+                    <nav id="nav_menu">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="#">Destinations</a>
+                                <ul>
+                                    <li><a href="travel_destinations.html">Travel
+                                            Destinations</a></li>
+                                    <li><a href="Travel_modes_and_Flights.html">Travel
+                                            modes</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="gallary.html" class="current">Gallery</a></li>
+                            <li><a href="hotels.html" class="current">Hotels</a></li>
+                            <li class="lastitem"><a href="Foodanddrink.html">Food
+                                    & Drink</a></li>
+                            <li class="lastitem"><a href="guidedTours.html">Guided
+                                    Tours</a></li>
+                            <li><a href="Aboutus.html" class="current">About Us</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <!--Main page content-->
+            <div class="content">
+                <h2>Travel Modes and Flights</h2>
+                <!--content for flightmode-->
+                <div class="flightMode">
+                    <h3> Choose the most convenient and recommanded flight mode
+                        of traveling</h3>
+                    <!--flight Images for display-->
+                    <div class="flightImages">
+                        <img class="flightimg" src="images/flight1.jpg"
+                            alt="Flight">
+                        <img class="flightimg" src="images/flightmode2.jpg"
+                            alt="flight">
+                        <img class="flightimg" src="images/flightmode3.jpg"
+                            alt="flight">
+                    </div>
+                    <hr>
+                    <h3>These are out trusted Airline partners.</h3>
+                    <hr>
+                    <p id="para1">
+                        <img id="f1logo" src="images/Flight_network.jpg"
+                            alt="flight network logo"><br>
+                        <a href="https://www.flightnetwork.com/"
+                            target="_blank">Flight network</a><br><br>
+                        Browse some of our most popular destinations below and
+                        discover the best times to book flights
+                        at the cheapest prices, detailed information on weather
+                        trends, expert tips on little known
+                        sights, hotels, restaurants and a lot more.<br><br>
+                        <img id="f2logo" src="images/Cheap_flight.jpg"
+                            alt="cheap flight logo"><br>
+                        <a href="https://www.cheapflights.ca/" target="_blank">
+                            Cheap Flights</a><br><br>
+                        Cheapflights is a travel fare aggregator and travel fare
+                        metasearch engine. The website is part
+                        of the Kayak.com subsidiary of Booking Holdings. Its
+                        websites publish flight prices, and compare
+                        prices from suppliers, including major airlines, through
+                        tiny travel agents.<br><br>
+                        <img id="f3logo" src="images/kayak.jpg" alt="kayak
+                            logo"> <br>
+                        <a href="https://www.ca.kayak.com/flights"
+                            target="_blank">Kayak Flights </a><br><br>
+                        Save money on airfare by searching for cheap flight
+                        tickets on KAYAK. KAYAK searches for flight
+                        deals on hundreds of airline tickets sites to help you
+                        find the cheapest flights. Whether you
+                        are looking for a last minute flight or a cheap plane
+                        ticket for a later date, you can find the
+                        best deals faster at KAYAK.<br><br><br>
+                    </p>
+                </div>
+
+                <!--content for busmode-->
+                <div class="busMode">
+                    <h3> Choose the traveling mode which canadians are using
+                        daily to commute - bus mode with
+                        best fares</h3>
+                    <!--Images for busmode to display-->
+                    <div id="busImages">
+                        <img class="busimg" src="images/busimg.jpg" alt="bus
+                            image">
+                        <img class="busimg" src="images/bus2.jpg" alt="bus
+                            image">
+                        <img class="busimg" src="images/bus3.jpg" alt="bus
+                            image">
+                    </div>
+                    <hr>
+                    <h3>These are most popular Bus modes</h3>
+                    <hr>
+                    <div class="bus">
+                        <img class="b" src="images/ttc.jpg" alt="TTC bus"><br>
+                        <h4> 1) Toronto Transit Commission :</h4>
+                        <p id="buspara1"> The Toronto Transit Commission is the
+                            public transport agency that operates bus,
+                            subway,
+                            streetcar, and paratransit services in Toronto,
+                            Ontario, Canada.For more information click <a
+                                class="busLink" href="http://www.ttc.ca/"
+                                target="_blank">here</a></p>
+                    </div>
+                    <div class="bus">
+                        <img class="b" src="images/greyhound_bus.jpg"
+                            alt="greyhound bus"><br>
+                        <h4> 2) Greyhound Busses:</h4>
+                        <p id="buspara2"> Greyhound Canada Transportation ULC is
+                            the Canadian affiliate of Greyhound USA,
+                            and part of
+                            the North American operations of FirstGroup. For
+                            more informationon Greyhound Buses click <a
+                                class="busLink" href="https://www.greyhound.ca/"
+                                target="_blank">here</a></p>
+                    </div>
+                    <div class="bus">
+                        <img class="b" src="images/gobuses.jpg" alt="go buses
+                            image"><br>
+                        <h4> 3) Go Transit:</h4>
+                        <p id="buspara3">GO Transit is a regional public transit
+                            system serving the Greater Golden Horseshoe
+                            region of Ontario, Canada. ... GO Transit operates
+                            diesel-powered double-decker trains and coach
+                            buses, on routes that connect with all local transit
+                            systems in its service area, as well as
+                            Via Rail, Canada's national rail system.For more
+                            information on Go buses click <a
+                                class="busLink"
+                                href="https://www.gotransit.com/en/"
+                                target="_blank">here</a></p>
+                    </div>
+                </div>
+
+                <!--content for car mode-->
+                <div class="cabMode">
+                    <h3> Choose a personal ride go where-ever you want with
+                        affordable fairs - Cab mode</h3><br>
+                    <!--images for carmode to Display-->
+                    <div class="carImages">
+                        <img class="taxiimg" src="images/taxi1.jpg" alt="taxi
+                            image">
+                        <img class="taxiimg" src="images/taxi2.jpg" alt="taxi
+                            image">
+                        <img class="taxiimg" src="images/taxi3.jpg" alt="taxi
+                            image">
+                    </div>
+                    <hr>
+                    <h3>These are our trusted cab services.</h3>
+                    <hr>
+                    <div class="car">
+                        <img class="c" src="images/limos.jpg" alt="limo image"><br>
+                        <h4> 1) Limo services:</h4>
+                        <p id="carpara1"> Toronto Airport Limo is a full-service
+                            limousine transportation and airport ground
+                            transportation provider serving Toronto, the GTA and
+                            all of southern Ontario. We
+                            specialize in airport limo and taxi services within
+                            the GTA, with over 140 vehicles in
+                            our fleet, ready
+                            to accommodate all our client’s needs throughout the
+                            city.For more on Limo services click <a
+                                href="https://www.torontoairportlimo.com/"
+                                target="_blank">here</a><br><br> </p>
+                    </div><br><br>
+                    <div class="car">
+
+                        <img class="c" src="images/coop.jpg" alt="co-op photo"><br>
+                        <h4> 2) Co-op cabs:</h4>
+                        <p id="carpara2"> Co-op Cabs has been providing safe,
+                            reliable and professional taxi service in
+                            Toronto
+                            for over 60 years.Serving the communities of
+                            Toronto, North York, Scarborough,
+                            Etobicoke, and East York for over 60 years. Call us
+                            today at 416-504-2667.
+                            For more information on Co-op cab click <a
+                                href="https://co-opcabs.com"
+                                target="_blank">here</a><br><br></p>
+                    </div><br><br>
+                    <div class="car">
+                        <img class="c" src="images/diamond_taxi.jpg"
+                            alt="diamond taxi"><br>
+                        <h4> 3) Diamond Taxicab:</h4>
+                        <P id="carpara3"> Diamond Taxicab has provided reliable
+                            transportation in Toronto since 1949, but
+                            uses the
+                            most advanced booking and dispatch technology in the
+                            industry to serve passengers
+                            quickly and keep them informed. No smartphone? No
+                            problem! Call us at
+                            416-366-6868. To get more information click<a
+                                href="http://www.diamondtaxi.ca/"
+                                target="_blank">here</a><br><br> </P><br>
+                    </div><br>
+                </div>
+                <!--content for tours -->
+                <div class="tours">
+                    <h3> Have you ever go with stranger people ? if not then
+                        this tours are really helpful to go out and see
+                        the beauty of nature</h3>
+                    <!--Images to display for tours content-->
+                    <div class="travelImages">
+                        <img class="travelPeople" src="images/t1.jpg"
+                            alt="travel1">
+                        <img class="travelPeople" src="images/t2.jpg"
+                            alt="travel2">
+                        <img class="travelPeople" src="images/t3.jpg"
+                            alt="travel3">
+                    </div>
+                    <hr>
+                    <!--Schedule for tours content-->
+                    <h3>Travel schedule for local tour in Toronto
+                    </h3>
+                    <hr>
+                    <p id="paraschedule">
+                        A guided tour provided by youth of Canada for people
+                        like you who want to explore different
+                        places of toronto and see the beauty of unexplored
+                        scenes.<br>
+                        We provide not only information about places, but also
+                        the information about local culture
+                        of place. If it is possible to come with your camera or
+                        smartphone then don't forget them at
+                        home because you will see some of eye-catching views of
+                        Canada.<br><br>
+                    </p>
+
+                    <h4 class="ht">Monday to Friday</h4>
+                    <table class="tab1">
+                        <tr>
+                            <th>Time</th>
+                            <th>Place</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Nathan Phillips Square</td>
+                            <td>$75</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>High park subway station</td>
+                            <td>$65</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Dupont subway station</td>
+                            <td>$75</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>At Amsterdam restaurant</td>
+                            <td>$75</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Old mills subway station</td>
+                            <td>$75</td>
+                        </tr>
+
+                    </table>
+
+
+                    <h4 class="ht">Weekends</h4>
+                    <table class="tab1">
+                        <tr>
+                            <th>Time</th>
+                            <th>Place</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Nathan Phillips Square</td>
+                            <td>$50</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>High park subway station</td>
+                            <td>$50</td>
+                        </tr>
+
+                        <tr>
+                            <td>9:00 AM</td>
+                            <td>Old mills subway station</td>
+                            <td>$50</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!--map content-->
+                <div id="mapArea"></div>
+                <script src="js/googlemap.js"></script>
+                <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfCUH4TswyD8NzzXY3mcigT4eDj_9uQ5g&callback=googleMap">
+                </script>
+                <!--footer content for page-->
+                <footer id="footer">
+                    <p>
+                        <strong>About The World Travel Guide</strong>
+                        <br><br>
+                        The World Travel Guide (WTG) is the<br> flagship digital
+                        consumer brand within<br> the Columbus
+                        Travel
+                        Media portfolio.
+                        A<br> comprehensive guide to the world’s best<br> travel
+                        destinations, its print heritage<br>
+                        stretches
+                        back more than 30 years,
+                        with<br> the online portal reaching its 20-year<br>
+                        anniversary in 2019. Available in English,<br>
+                        German and Spanish versions,
+                        the WTG<br> provides detailed and accurate travel<br>
+                        content designed to inspire global
+                        travellers.<br>
+                        It covers all aspects, from<br> cities to airports,
+                        cruise ports to ski and<br> beach resorts,
+                        attractions to events, and<br> it also includes weekly
+                        travel news,<br> features and quizzes.
+                        Updated every<br> day by a dedicated global editorial
+                        team,<br> the portal logs 1 million+ unique
+                        users<br> monthly.
+                    </p>
+                    <div id="list-footer">
+                        <ul>
+                            <li><a href="Aboutus.html">About Us</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="enquiry.html">Post your enquiry</a></li>
+                        </ul>
+                    </div>
+                    <div id="div-bottom">
+                        <span>&copy; World Travel</span>
+                    </div>
+                </footer>
+                <script src="js/scrollTop.js"></script>
+
+            </div>
+        </div>
+        </body>
+    </html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Photo & Video gallery
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Photos and Video Gallery">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link href="styles/site-header.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- Top Button -->
+    <button onclick="topFunction()" id="topBtn" title="top_btn">Top</button>
+    <div id="wrapper">
+        <!--header-->
+        <div id="header">
+            <div id="div-logo">
+                <img id="site-logo" src="images/Site_logo.jpg" alt="site logo">
+            </div>
+            <div id="div-login">
+                <a href="#" class="myButton" id="login-button" onclick="overLay('1');">Login</a>
+                <a href="#" class="myButton" onclick="signUp('2');">Sign Up</a>
+            </div>
+            <header>
+                <!--navigation bar-->
+                <nav id="nav_menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">Destinations</a>
+                            <ul>
+                                <li><a href="travel_destinations.html">Travel Destinations</a></li>
+                                <li><a href="Travel_modes_and_Flights.html">Travel modes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gallary.html" class="current">Gallery</a></li>
+                        <li><a href="hotels.html" class="current">Hotels</a></li>
+                        <li class="lastitem"><a href="Foodanddrink.html">Food & Drink</a></li>
+                        <li class="lastitem"><a href="guidedTours.html">Guided Tours</a></li>
+                        <li><a href="Aboutus.html" class="current">About Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <!--main content of gallery -->
+        <div class="content">
+            <h2>Eye-catching images of top places to visit in Canada</h2>
+            <p id="para1">
+                The beauty of Toronto is different from other part of world. In Canada you'll see lots of beautiful
+                sights nearby water.<br>
+                The most beautiful places in Toronto tend to be on the waterfront or part of our stunning ravine system
+                but despite the ever increasing density of the city, you can also find pockets of beauty in the heart of
+                downtown. If you know where to look, there's beauty all over the place.
+            </p>
+            <!-- These for slideshow -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="image1" src="images/oldmillsflow.jpg">
+                    <div class="text">Caption Text</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="image1" src="images/swaminarayan.jpg">
+                    <div class="text">Caption Two</div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="image1" src="images/Centerlady.jpg">
+                    <div class="text">Caption Three</div><br>
+                </div>
+            </div>
+            <div id="dott">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+           
+            <div class="image3">
+                    <img src="images/Lights.jpg" alt="lights">
+                    <img src="images/cntower.jpg" alt="cn with eagle">
+                    <img src="images/Krishna.jpg" alt="krishna"><br>
+            </div>
+            <div class="image2">
+                    <img src="images/downtown.jpg" alt="downtown">
+                    <img src="images/waves.jpg" alt="waves">
+                    <img src="images/old_mills2.jpg" alt="old mills"><br>
+            </div>
+            <p>
+                    Fall is a short but sweet season in Toronto. We have but a slim window between the sweltering heat
+                    of<br>
+                    summer and the wind chill winter brings with it, but there are many ways to take advantage of autumn
+                    in the city. <br>
+                    You will see the most colorfull trees and their leaf in fall. If you're photographer then you'll
+                    love the city in fall.        
+            </p>
+                <div class="image3">
+                    <img src="images/uniquw.jpg" alt="unique">
+                    <img src="images/mapleleaf.jpg" alt="old mills maple leaf">
+                    <img src="images/Humber.jpg" alt="humber"><br>
+                </div>
+                <p>
+                    The pictures are captured by Vijay Thakar in 2019 in Toronto. You can see the colors of leafs and
+                    trees
+                    in vibrant way.
+                </p>
+                <div class="image3">
+                    <img src="images/oldmills.jpg" alt="old mills dam">
+                    <img src="images/fall_2.jpg" alt="fall">
+                    <img src="images/fall2.jpg" alt="fall2">
+                </div>
+                <div class="image3">
+                    <img src="images/oldmills.jpg" alt="old mills fall">
+                    <img src="images/humber_fall2.jpg" alt="humber fall2">
+                    <img src="images/Humber_fall.jpg" alt="humber fall"><br>
+                </div>
+                <!--For videos-->
+                <h3>If you don't know much about Canada, don't worry here is our famous vblogger who helps you to travel
+                    around</h3>
+                <div class="video1">
+                    <video controls>
+                        <source src="videos/videoplayback.mp4" type="video/mp4">
+                    </video><br><br>
+                </div>
+                <h3>Here is top most 8 things to do in Toronto recommanded by local people, and all of them are
+                    beautiful.
+                </h3><br>
+                <div class="video2">
+                    <video controls>
+                        <source
+                            src="videos/y2mate.com - 8_things_to_do_in_toronto_as_recommended_by_locals_l1t82-QO-5o_360p.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+        </div>  
+    
+                <!--Footer code-->
+                <footer id="footer">
+                    <p>
+                        <strong>About The World Travel Guide</strong>
+                        <br><br>
+                        The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus
+                        Travel Media portfolio.
+                        A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br>
+                        stretches back more than 30 years,
+                        with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in
+                        English,<br>
+                        German and Spanish versions,
+                        the WTG<br> provides detailed and accurate travel<br> content designed to inspire global
+                        travellers.<br>
+                        It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                        attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                        Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+
+                        unique
+                        users<br> monthly.
+                    </p>
+                    <div id="list-footer">
+                        <ul>
+                            <li><a href="Aboutus.html">About Us</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="enquiry.html">Post your enquiry</a></li>
+                        </ul>
+                    </div>
+                    <div id="div-bottom">
+                        <span>&copy; World Travel</span>
+                    </div>
+                </footer>
+    </div>
+            <!--Javascipt for page-->
+            <script src="js/scrollTop.js"></script>
+            <script src="js/galleryShow.js"></script>       
+
+</body>
+
+</html>

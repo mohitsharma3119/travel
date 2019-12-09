@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>World Travel</title>
+<link href="styles/home.css" rel ="stylesheet" />
+<link href="styles/site-header.css" rel ="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+
+</head>
+<body>
+  <div id ="wrapper">
+    <div id ="div-overlay" class="overlay" onclick="closeOverlay();">       
+        <iframe id="frameOverlay"></iframe>
+    </div>  
+    <div id ="header">
+     <div id="div-logo">
+            <img id ="site-logo" src="images/logo2.jpg" alt="site logo">
+        </div>
+        <div id ="div-login">
+        <label id ='lbl_home'></label>
+        <a href="#" class="myButton" id="login-button" onclick="overLay('1');">Login</a>
+        <a href="#" class="myButton" onclick="overLay('2');">Sign Up</a>
+     </div>
+    <header>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a  href="travel_destinations.html">Destinations</a>
+                    <ul>
+                        <li><a href="travel_destinations.html">Travel Destination</a></li>
+                        <li><a href="Travel_modes_and_Flights.html">Travel Modes & Schedule</a></li>                                                
+                    </ul>
+                </li>
+                <li><a href="gallary.html" >Gallery</a></li>
+                <li><a href="hotels.html" >Hotels</a></li>                                      
+                <li ><a href="Foodanddrink.html">Food & Drink</a></li>
+                <li><a href="guidedTours.html">Guided Tours</a></li>
+                <li><a href="aboutus.html" >About Us</a></li>
+            </ul>            
+        </nav>
+    </header>
+    </div>       
+    <main id ="main-content">
+        <!-- <span>World Travel Guide</span> -->
+        <!-- <input type="text" id ="search-bar" placeholder="Where would you like to go ?" /> -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img id ="img-logo" src="images/cb_tokyo_sakura_istock.jpg" alt ="logo" class="img-slide">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/blonde-girl.webp" alt="picture2" class="img-slide">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images/california_bridge.jpg" alt="picture3" class="img-slide">
+            </div>           
+        </div>
+        <p>
+                The World Travel Guide (WTG) is the flagship digital consumer brand within the Columbus Travel <br>Media portfolio.
+                 Available in English, German, and Spanish versions, the WTG provides detailed and <br>accurate travel content designed to inspire global travellers. 
+                 It covers all aspects, from cities to <br>airports, cruise ports to ski and beach resorts, attractions to events,
+                 and it also includes offbeat <br>travel news, stories, quizzes and guides for adventurous travellers. 
+        </p>               
+        <span id="span-travel" class="span-text">Travel Features</span>
+       <div class="flexContainer">
+            <div class ="features">   
+                <figure>
+                    <img src="images/milky-way-reflections-at-bow-lake.jpg" alt ="features">
+                    <figcaption> <a href="# ">Top 20 places to visit in Canada</a> </figcaption>
+                </figure>             
+                <figure>
+                    <img id ="img-beach" src="images/sky-mountains-beach-lake-wallpaper-preview.jpg" alt ="hotels">
+                    <figcaption> <a href="#">Top Beaches</a> </figcaption>
+                </figure> 
+                <figure>
+                    <img id ="img-fall" src="images/fall.jpeg" alt ="hotels">
+                    <figcaption> <a href="#">Fall in Canada </a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/7553425250_3aab12bbd1_b.jpg" alt ="hotels"> 
+                    <figcaption> <a href="#">Enjoy the buzz in cities</a></figcaption>
+                </figure>                                                                
+            </div>
+        </div>
+        <hr>
+        <span id ="span-hotels" class="span-text"> Hotels</span>
+        <a href ="#" id ="span-deals" class="span-text">Check out our new deals!</a>
+        <div class="flexContainer">
+            <div class ="features">   
+                <figure>
+                    <img src="images/275130(3).jpg" alt ="hotels">
+                    <figcaption> <a href="#">Toronto</a> </figcaption>
+                </figure>             
+                <figure>
+                    <img src="images/275130(4).jpg" alt ="hotels">
+                    <figcaption> <a href="#">Oshawa</a> </figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/275130(5).jpg" alt ="hotels">
+                    <figcaption> <a href="#">Hamilton</a> </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/275130.jpg" alt ="hotels"> 
+                    <figcaption> <a href="#">Vancouver</a> </figcaption>
+                </figure>                                                                
+            </div>
+        </div>
+        <hr>
+        <span id ="span-hotels" class="span-text"> Food & Drink</span>        
+        <div class="flexContainer">
+            <div class ="features">   
+                <figure>
+                    <img src="images/food-festival.jpg" alt ="Food Festival">
+                    <figcaption> <a href="#">Discover Places to eat</a> </figcaption>
+                </figure>             
+                <figure>
+                    <img src="images/food-festival1.png" alt ="Food Festival">
+                    <figcaption> <a href="#">Explore food festivals</a> </figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/ultimate-poutine.jpg" alt ="Poutine">
+                    <figcaption> <a href="#">Explore local cousine</a> </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/night-life.jpg" alt ="Night life"> 
+                    <figcaption> <a href="#">Night Life</a> </figcaption>
+                </figure>                                                                
+            </div>
+        </div> 
+    </main>
+    <footer id ="footer">
+            <p>                
+                <strong>About The World Travel Guide</strong>
+                <br><br>
+                The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus Travel Media portfolio. 
+                A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br> stretches back more than 30 years,
+                with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in English,<br> German and Spanish versions, 
+                the WTG<br> provides detailed and accurate travel<br> content designed to inspire global travellers.<br>
+                It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+ unique users<br> monthly.
+            </p>
+            <div id ="list-footer">
+                <ul>                    
+                    <li><a href="AboutUS.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="#" onclick="overLay('3');">Post your enquiry</a></li>
+                </ul>
+                    
+            </div>
+            <div id ="div-bottom">
+                <span>&copy; World Travel</span>
+            </div>            
+    </footer>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/site-header.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>World Travel</title>
+<link href="styles/site-header.css" rel ="stylesheet" />
+<script type="text/javascript" src="js/site-header.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<meta charset="utf-8">
+</head>
+<body onload="loadhome()">
+    <div id ="container">                
+        <div id="div-logo">
+                <img id ="site-logo" src="images/logo2.jpg" alt="site logo">
+        </div>
+        <div id ="div-login">
+            <a href="#" class="myButton" id="login-button" onclick="overLay('1');">Login</a>
+            <a href="#" class="myButton" onclick="signUp('2');">Sign Up</a>
+        </div>
+        <header>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="#">Destinations</a>
+                        <ul>
+                            <li><a href="enquiry.html">Jeffrey Toobin</a></li>
+                            <li><a href="#">Andrew Ross Sorkin</a></li>
+                            <li><a href="#">Amy Chua</a></li>
+                            <li><a href="sampson.html">Scott Sampson</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="members.html" class="current">Hotels</a>                    
+                        <ul>
+                            <li><a href="#">Jeffrey Toobin</a></li>
+                            <li><a href="#">Andrew Ross Sorkin</a></li>
+                            <li><a href="#">Amy Chua</a></li>
+                            <li><a href="sampson.html">Scott Sampson</a></li>
+                        </ul>
+                    </li>
+                    <li class="lastitem"><a href="aboutus.html">Food & Drink</a>
+                        <ul>
+                            <li><a href="#">Our History</a></li>
+                            <li><a href="#">Board of Directors</a></li>
+                            <li><a href="#">Past Speakers</a></li>
+                            <li><a href="#">Contact Information</a></li>
+                        </ul>
+                    </li>
+                    <li class="lastitem"><a href="aboutus.html">Guided Tours</a>
+                        <ul>
+                            <li><a href="#">Our History</a></li>
+                            <li><a href="#">Board of Directors</a></li>
+                            <li><a href="#">Past Speakers</a></li>
+                            <li><a href="#">Contact Information</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- <section id ="iframe-container" class="iframeContainer">
+            <iframe id="myIframe"  allowfullscreen="" class="frameAdjust"></iframe>
+        </section> -->
+        <footer id ="footer">
+            <p>                
+                <strong>About The World Travel Guide</strong>
+                <br><br>
+                The World Travel Guide (WTG) is the<br> flagship digital consumer brand within<br> the Columbus Travel Media portfolio. 
+                A<br> comprehensive guide to the world’s best<br> travel destinations, its print heritage<br> stretches back more than 30 years,
+                with<br> the online portal reaching its 20-year<br> anniversary in 2019. Available in English,<br> German and Spanish versions, 
+                the WTG<br> provides detailed and accurate travel<br> content designed to inspire global travellers.<br>
+                It covers all aspects, from<br> cities to airports, cruise ports to ski and<br> beach resorts,
+                attractions to events, and<br> it also includes weekly travel news,<br> features and quizzes.
+                Updated every<br> day by a dedicated global editorial team,<br> the portal logs 1 million+ unique users<br> monthly.
+            </p>
+            <div id ="div-bottom">
+                <span>&copy; World Travel</span>
+            </div>            
+        </footer>
+    </div>
+    <div id ="overLayContainer" class="iframeContainer">
+        <div id ="div-overlay">
+            <a href="#" class="closebtn" onclick="closeOverlay();">&times;</a>
+            <div class="overlay-content">
+                    <iframe id="frameOverlay" class="frameAdjust" allowfullscreen=""></iframe>
+            </div>       
+        </div>
+    </div>       
+</body>
+</html>
